@@ -9,9 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>editing and proofreading pdf|certificate in editing and proofreading|english editing and proofreading</title>
     <meta name="description" content="Alboraq certificate in editing and proofreading,we editing and proofreading pdf,we provide book editing and proofreading,english editing and proofreading,also online proofreading and editing">
-    <meta name="keywords" content="Financial Website Template, Bootstrap Template, Loan Product, Personal Loan">
-    <title>editing and proofreading pdf |certificate in editing and proofreading|english editing and proofreading</title>
+    <meta name="keywords" content="certificate in editing and proofreading,what is the difference between proofreading and editing,what is the difference between editing and proofreading,editing and proofreading pdf,the difference between proofreading and editing,the difference between editing and proofreading,professional proofreading and editing services,book editing and proofreading,translation editing proofreading,proofreading and editing service,english editing and proofreading,proofreading editing service,editing proofreading services,online proofreading and editing,professional editing and proofreading,editing and proofreading service,online editing and proofreading,certified german translation services,certified french translation services,certified translation services birth certificate,best translation services online,free translation services online,website translation services reviews,free online document translation services">
     <!-- Bootstrap -->
     <link href="{!!asset('css/bootstrap.min.css')!!}" rel="stylesheet">
     <link href="{!!asset('css/style.css')!!}" rel="stylesheet">
@@ -57,7 +58,7 @@
                     <p class="mail-text">Welcome To our Certified Translation Agency</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('home')}}">English</a></span> <span class="top-text"><a href="{{url('arabic-home')}}">عربي</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -69,7 +70,7 @@
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
@@ -77,7 +78,7 @@
                     <div id="navigation" >
                         <!-- navigation start-->
                         <ul >
-                            <li class="active"><a href="{{url('home')}}" class="animsition-link">Home</a>
+                            <li class="active"><a href="{{url('/')}}" class="animsition-link">Home</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>

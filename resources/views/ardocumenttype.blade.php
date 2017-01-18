@@ -76,7 +76,7 @@
                     <p class="mail-text" style="font-size:15px">مرحبا بكم في شركة البراق للترجمة المعتمدة</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12"  style="font-size:13px">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('arabic-about-contact-us')}}">لمعرفة مكان الشركة</a> </span> <span class="top-text"><a href="{{url('home')}}">English</a></span> <span class="top-text"><a href="{{url('arabic-home')}}">عربي</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('arabic-about-contact-us')}}">لمعرفة مكان الشركة</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@ ul { list-style: none; }
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/arabic')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
@@ -186,7 +186,7 @@ ul { list-style: none; }
                                    
                                 </ul>
                             </li>
-                            <li class="active"><a style="font-size:19px" href="{{url('arabic-home')}}" class="animsition-link">الصفحة الرئيسية</a>
+                            <li class="active"><a style="font-size:19px" href="{{url('/arabic')}}" class="animsition-link">الصفحة الرئيسية</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>
@@ -236,7 +236,7 @@ ul { list-style: none; }
                 <div class="col-md-12">
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li><a href="{{url('arabic-home')}}" class="c">الصفحة الرئيسية</a></li>
+                            <li><a href="{{url('/arabic')}}" class="c">الصفحة الرئيسية</a></li>
                             <li class="active c" >أنواع الملفات التي نقوم بترجمتها</li>
                         </ol>
                     </div>
@@ -250,7 +250,7 @@ ul { list-style: none; }
                             <div class="col-md-8 col-sm-7">
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12">
-                                        <div class="btn-action c"> <a href="#" class="btn btn-default c">أرسل ملفاتك ليتم ترجمتها</a> </div>
+                                        <div class="btn-action c"> <a href="{{url('arabic-online-translation')}}" class="btn btn-default c">أرسل ملفاتك ليتم ترجمتها</a> </div>
                                     </div>
                                 </div>
                             </div>

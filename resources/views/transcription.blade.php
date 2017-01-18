@@ -8,9 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="we know what is the process of transcription and translation to deliver certified transcript translation we translate academic transcript and other documents type.">
-    <meta name="keywords" content="Financial Website Template, Bootstrap Template, Loan Product, Personal Loan">
+    
     <title>transcript translation services|certified transcript translation</title>
+    <meta name="description" content="we know what is the process of transcription and translation to deliver certified transcript translation we translate academic transcript and other documents type.">
+    <meta name="keywords" content="transcription versus translation,what is difference between transcription and translation,what is the process of transcription and translation,whats the difference between transcription and translation,steps for transcription and translation,how is transcription different from translation,transcription and translation comparison,what are the differences between transcription and translation,translation and transcription difference,what is transcription translation,transcription and translation similarities,transcription and translation differences,describe the difference between transcription and translation,what is the purpose of transcription and translation,differentiate between transcription and translation,translation and transcription steps,define transcription and translation,transcript translation services,compare transcription and translation,college transcript translation services,translation and transcription definition,purpose of transcription and translation,how to do transcription and translation,translate academic transcript,translation or transcription first,distinguish between translation and transcription,transcript translation spanish,transcription and translation made easy,what are transcription and translation,explain transcription and translation,what is the difference between translation and transcription,what is translation and transcription,distinguish between transcription and translation,the difference between translation and transcription,certified transcript translation,phonetic transcription translation,transcription translation process,translate transcript to spanish,the process of transcription and translation">
     <!-- Bootstrap -->
     <link href="{!!asset('css/bootstrap.min.css')!!}" rel="stylesheet">
     <link href="{!!asset('css/style.css')!!}" rel="stylesheet">
@@ -56,7 +57,7 @@
                     <p class="mail-text">Welcome To our Certified Translation Agency</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('home')}}">English</a></span> <span class="top-text"><a href="{{url('arabic-home')}}">عربي</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -68,7 +69,7 @@
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
@@ -76,7 +77,7 @@
                     <div id="navigation" >
                         <!-- navigation start-->
                         <ul >
-                            <li class="active"><a href="{{url('home')}}" class="animsition-link">Home</a>
+                            <li class="active"><a href="{{url('/')}}" class="animsition-link">Home</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>

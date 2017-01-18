@@ -8,9 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="our video interpreter services team provide professional video interpreting services and audio interpretation">
-    <meta name="keywords" content="Financial Website Template, Bootstrap Template, Loan Product, Personal Loan">
+    
     <title> video interpreter services|video interpreting services|audio interpretation</title>
+
+    <meta name="description" content="our video interpreter services team provide professional video interpreting services and audio interpretation">
+    <meta name="keywords" content="video and audio interpreter services,online document translater,translate word document from dutch to english,translate whole word document,online word document translator,word document translation online,translate pdf document from german to english,translate a pdf document from german to english,translation of pdf documents,how to translate a word document from english to spanish,how to translate a word document,translation and certification of documents,translate english to spanish documents,cheap document translation,translate documents for immigration,document translation cost,how to translate a word document into spanish,translate pdf document from spanish to english,french to english translation pdf document,translate word document from chinese to english,translate document word,translate pdf document from russian to english,polish to english document translation,translate word document from french to english,translate documents to english,translate document to spanish,translate word document to spanish,translate scanned arabic document to english,translate chinese to english word document,translate pdf document from french to english online,translate online document,translate document german to english,cheap document translation services,certified translated documents,russian document translation service,translate document from dutch to english,translate document online">
     <!-- Bootstrap -->
     <link href="{!!asset('css/bootstrap.min.css')!!}" rel="stylesheet">
     <link href="{!!asset('css/style.css')!!}" rel="stylesheet">
@@ -56,7 +58,7 @@
                     <p class="mail-text">Welcome To our Certified Translation Agency</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('home')}}">English</a></span> <span class="top-text"><a href="{{url('arabic-home')}}">عربي</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -68,7 +70,7 @@
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
@@ -76,7 +78,7 @@
                     <div id="navigation" >
                         <!-- navigation start-->
                         <ul >
-                            <li class="active"><a href="{{url('home')}}" class="animsition-link">Home</a>
+                            <li class="active"><a href="{{url('/')}}" class="animsition-link">Home</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>
@@ -197,7 +199,7 @@
                 <div class="col-md-12">
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
-                            <li><a href="{{url('home')}}">Home</a></li>
+                            <li><a href="{{url('/')}}">Home</a></li>
                             <li class="active">Audio and Video Interpreting</li>
                         </ol>
                     </div>

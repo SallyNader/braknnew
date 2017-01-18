@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -74,7 +73,7 @@
                     <p class="mail-text" style="font-size:15px">مرحبا بكم في شركة البراق للترجمة المعتمدة</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12"  style="font-size:13px">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('arabic-about-contact-us')}}">لمعرفة مكان الشركة</a> </span> <span class="top-text"><a href="{{url('home')}}">English</a></span> <span class="top-text"><a href="{{url('arabic-home')}}">عربي</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('arabic-about-contact-us')}}">لمعرفة مكان الشركة</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -104,7 +103,7 @@
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/arabic')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
@@ -183,7 +182,7 @@
                                    
                                 </ul>
                             </li>
-                            <li class="active"><a style="font-size:19px" href="{{url('arabic-home')}}" class="animsition-link">الصفحة الرئيسية</a>
+                            <li class="active"><a style="font-size:19px" href="{{url('/arabic')}}" class="animsition-link">الصفحة الرئيسية</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>
@@ -322,7 +321,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <i class="icon-users icon-2x icon-default"></i>
                     <h1 class="wi" ><b>لماذا تختار البراق للترجمة ؟</b> </h1>
-                    <p class="c"> شركة البراق معتمدة فى مجال الترجمة  الموجودة فى مصر(<a>موقع الشركة</a>)يتيح ترجمة جميع اللغات الاجنبية  </p>
+                    <p class="c"> شركة البراق معتمدة فى مجال الترجمة  الموجودة فى مصر(<a href="{{url('arabic-about-contact-us')}}">موقع الشركة</a>)يتيح ترجمة جميع اللغات الاجنبية  </p>
                     <a href="{{url('arabic-online-translation')}}" class="btn btn-primary c">أرسل ترجمتك عبر الأنترنت</a>
                 </div>
                 <div class="col-md-offset-1 col-md-7 col-xs-12 col-sm-12">
@@ -333,7 +332,7 @@
                                     <h4 class="panel-title al" style="font-size: 22px"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><b >تريد التعرف على شركة البراق ؟</b></a> </h4>
   <b></b>                              </div>
                                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                    <div class="panel-body c al"> البراق هي شركة ترجمة معتمدة في مصر<a>لمشاهدة موقع الشركة</a> يتيح لجميع خدمة ترجمة للغات الاجنبية عالية الجودة والدقة فى الترجمة, الألتزام بمواعيد التسليم  , تأسست اليراق في عام 2010 , نضمن لك خدمة 24/7 تتضمن الأجازات الرسمية <a>تعريف كامل لشركة البراق</a>.</div>
+                                    <div class="panael-body c al"> البراق هي شركة ترجمة معتمدة في مصر<a href="{{url('arabic-about-contact-us')}}">لمشاهدة موقع الشركة</a> يتيح لجميع خدمة ترجمة للغات الاجنبية عالية الجودة والدقة فى الترجمة, الألتزام بمواعيد التسليم  , تأسست اليراق في عام 2010 , نضمن لك خدمة 24/7 تتضمن الأجازات الرسمية <a href="{{url('arabic-about-who-is-Alboraq')}}">تعريف كامل لشركة البراق</a>.</div>
                                 </div>
                             </div>
                             <div class="panel panel-default">
@@ -341,7 +340,7 @@
                                     <h4 class="panel-title"  style="font-size: 22px"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><b>من يقوم بترجمة ملفاتك ؟</b>   </a> </h4>
                                 </div>
                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                    <div class="panel-body c al">البراق تضم أمهر المترجمين  الحاصلين على شهادات الخبراة من مراكز معتمدة , مترجمينا خبرة  من 5-10 في الترجمة في مختلف المجالات ,و بالطبع يقود خبرائنا أحد أمهر المنفذين التنفذيين في مصر ,خبرة 10 سنوات في مجال الترجمة و قاد عدة شركات ترجمة كبرى في مصر <a href="">لمعرفة خرائنا في الترجمة</a>.</div>
+                                    <div class="panel-body c al">البراق تضم أمهر المترجمين  الحاصلين على شهادات الخبراة من مراكز معتمدة , مترجمينا خبرة  من 5-10 في الترجمة في مختلف المجالات ,و بالطبع يقود خبرائنا أحد أمهر المنفذين التنفذيين في مصر ,خبرة 10 سنوات في مجال الترجمة و قاد عدة شركات ترجمة كبرى في مصر <a href="{{url('arabic-about-our-team')}}">لمعرفة خبرائنا في الترجمة</a></div>
                                 </div>
                             </div>
                             <div class="panel panel-default">
@@ -349,7 +348,7 @@
                                     <h4 class="panel-title"  style="font-size: 22px"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <b>نوع الخدمات التى نقدمها ؟</b> </a> </h4>
                                 </div>
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                    <div class="panel-body c al">لدينا خدمات كثيرة في الترجمة لمختلف أنواع المتتندات<a>لمعرفة أنواع المستندات التي نترجمها</a>, مراجعة الوثائق<a>لمعرفة المزيد عن مراجعة الوثائق</a>,الترجمة الفورية <a>لمعرفة المزيد عن ترجتنا الفورية</a>,نسخ الملفات<a>لمزيد من المعلومات عن نسخ الملفات,ترجمة فيديو و ملفات صوتية <a>لمزيد من ترجمة فيديو و ملفات صوتية</a>,التعريب<a>لمزيد من المعلومات عن التعريب</a>
+                                    <div class="panel-body c al">لدينا خدمات كثيرة في الترجمة لمختلف أنواع الستندات<a href="{{url('arabic-document-type-we-translate')}}"> لمعرفة أنواع المستندات التي نترجمها </a>, مراجعة الوثائق <a href="{{url('arabic-translation-service-document-proofreading-editing')}}">لمعرفة المزيد عن مراجعة الوثائق</a>,الترجمة الفورية <a href="{{url('arabic-translation-service-simultaneous-interpretation')}}" > لمعرفة المزيد عن ترجمتنا الفورية</a>, نسخ الملفات <a href="{{url('arabic-translation-service-document-transcription')}}">لمزيد من المعلومات عن نسخ الملفات</a>, <a href="{{url('arabic-translation-service-video-audio-interpretation')}}">لمزيد من ترجمة فيديو و ملفات صوتية </a>, التعريب <a href="{{url('arabic-translation-service-localization')}}">لمزيد من المعلومات عن التعريب</a>
                                      </div>
                                 </div>
                             </div>
@@ -358,7 +357,7 @@
                                     <h4 class="panel-title al"  style="font-size: 22px"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">  <b>هل حصلت البراق على شهادات ؟</b></a> </h4>
                                 </div>
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                    <div class="panel-body c al">البراق تركة ترجمة معتمدة  حاصلة على شهادة الجمعية المصرية للمترجمين<a>لمشاهدة شهادتنا</a>. </div>
+                                    <div class="panel-body c al"> البراق تركة ترجمة معتمدة  حاصلة على شهادة الجمعية المصرية للمترجمين <a href="{{url('arabic-certifications')}}"> لمشاهدة شهادتنا </a>. </div>
                                 </div>
 
                                
@@ -389,7 +388,7 @@
                     <div class="mb60 text-center section-title">
                         <!-- section title start-->
                         <h1 class="wi">أنواع الملفات التي نترجمها</h1>
-                        <p class="c">نحن نقوم بترجمة جميع أنواع الملفات في مختلف المجالات<a> لمعرفة أنواع الملفات التي نترجمها</a></p>
+                        <p class="c">نحن نقوم بترجمة جميع أنواع الملفات في مختلف المجالات<a href="{{url('arabic-document-type-we-translate')}}"> لمعرفة أنواع الملفات التي نترجمها</a></p>
                     </div>
                     <!-- /.section title start-->
                 </div>
@@ -600,7 +599,7 @@
                         <div class="mb40"><i class="icon-calendar-3 icon-2x icon-default"></i></div>
                         <h2 class="capital-title c">أرسل ترجمتك الينا عبر الأنترنت</h2>
                         <p class="c"> اذا كان وقتك ديق و لاتستطيع زيارة شركتنا يمكنك أرسال الملف الذي ترغب في ترجمتة عن طريف الأنترنت  </p>
-                        <a href="#" class="btn-link">أرسل ملفك لنقوم بترجمته</a> </div>
+                        <a href="{{url('arabic-online-translation')}}" class="btn-link">أرسل ملفك لنقوم بترجمته</a> </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="bg-white bg-boxshadow pinside40 outline text-center mb30">
@@ -609,14 +608,14 @@
                         <h1 class="text-big ">202 22685650 </h1>
 
                         <p>alboraq@alboraq.com.eg</p>
-                        <a href="#" class="btn-link c">تواصل معنا</a> </div>
+                        <a href="{{url('arabic-about-contact-us')}}" class="btn-link c">تواصل معنا</a> </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="bg-white bg-boxshadow pinside40 outline text-center mb30">
                         <div class="mb40"> <i class="icon-users icon-2x icon-default"></i></div>
                         <h2 class="capital-title c">يمكنك أرسال سيرتك الذاتية لتصبح أحد مترجمينا </h2>
                         <p class="c">اذا كنت ترغب في العمل لدوام كامل أو من البيت يمكنك ملأ الأستمارة و سنقوم بالتواصل معك  </p>
-                        <a href="#" class="btn-link c">لأرسال السيرة الذاتية</a> </div>
+                        <a href="{{url('arabic-translator-jobs')}}" class="btn-link c">لأرسال السيرة الذاتية</a> </div>
                 </div>
             </div>
         </div>

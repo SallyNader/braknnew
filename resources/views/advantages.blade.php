@@ -11,7 +11,7 @@
    
     <title>certified document translation services|certified translation services online|certified german translation services </title>
 
-    <meta name="Keywords" content="" >
+    <meta name="Keywords" content="certified german translation services,certified french translation services,certified translation services birth certificate,best translation services online,free translation services online,website translation services reviews,free online document translation services,certified translation services online,online translation services free,telephone language translation services,best online translation service,language translation web service,online translations services,certified italian translation services,online professional translation services,online professional translation services,online certified translation services,translating services online,professional translation services price,website translation services cost,online language translation services" >
 
     <meta name="Description" content="Alboraq is certified translation services online,certified german translation services,certified french translation services,best translation services online,certified document translation services">
     <!-- Bootstrap -->
@@ -51,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div class="top-bar">
+     <div class="top-bar">
         <!-- top-bar -->
         <div class="container">
             <div class="row" >
@@ -59,7 +59,7 @@
                     <p class="mail-text">Welcome To our Certified Translation Agency</p>
                 </div>
                 <div class="col-md-8 col-sm-12 text-right col-xs-12">
-                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Locations</a> </span> <span class="top-text"><a href="">+202 22685650</a></span> <span class="top-text"><a href="">+2 010 69977924</a></span> </div>
+                    <div class="top-nav"> <span class="top-text hidden-xs"><a href="{{url('about/contact-us')}}">View Location</a> </span> <span class="top-text"><a href="{{url('/')}}">English</a></span> <span class="top-text"><a href="{{url('/arabic')}}">عربي</a></span> </div>
                 </div>
             </div>
         </div>
@@ -71,15 +71,15 @@
                 <div class="col-md-2 col-sm-12 col-xs-6" style="padding-left: 10px">
                     <!-- logo -->
                     <div class="logo"  >
-                        <a href="index.html"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
+                        <a href="{{url('/')}}"><img   src="{!!asset('images/logo2.png')!!}" alt="Borrow - Loan Company Website Template" style="background-color: black" ></a>
                     </div>
                 </div>
                 <!-- logo -->
-                <div class="col-md-9 col-sm-12 col-xs-12" style="width:1200px;margin-top:1px;hight:60px;margin-right: 2px">
+                <div class="col-md-9 col-sm-12 col-xs-12" style="width:80%;float: right;margin-top:1px;hight:60px;margin-right: 2px">
                     <div id="navigation" >
                         <!-- navigation start-->
                         <ul >
-                            <li class="active"><a href="{{url('home')}}" class="animsition-link">Home</a>
+                            <li class="active"><a href="{{url('/')}}" class="animsition-link">Home</a>
                                <!-- <ul>
                                     <li><a href="index.html" title="Home page 1" class="animsition-link">Home page 1</a></li>
                                     <li><a href="index-1.html" title="Home page 2" class="animsition-link">Home page 2</a></li>
@@ -93,10 +93,10 @@
                                     <li><a href="{{url('about/our-team')}}" title="Car Loan" class="animsition-link">Our Team</a></li>
                                    
                                     <li><a href="{{url('about/contact-us')}}" title="Home Loan" class="animsition-link">Contact Us</a></li>
-                                    <li><a href="{{url('about/sit-emap')}}" title="Education Loan" class="animsition-link">Site Map</a></li>
+                                    <!-- <li><a href="{{url('about/sit-emap')}}" title="Education Loan" class="animsition-link">Site Map</a></li> -->
                                 </ul>
                             </li>
-                            <li><a href="" class="animsition-link">Our Services</a>
+                            <li><a href="" class="animsition-link">Services</a>
                                 <ul>
                                     <li><a href="{{url('translation-service/document-proofreading-editing')}}" title="About us" class="animsition-link">Document Proofreading/Editing</a></li>
                                     <li><a href="{{url('translation-service/document-translation')}}" title="Team" class="animsition-link">Document Translation</a></li>
@@ -110,7 +110,7 @@
                                     <li><a href="{{url('translation-service/content-development')}}" title="Team" class="animsition-link">Content Development</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{url('document-type-we-translate')}}" class="animsition-link">Document We Translate </a>
+                            <li><a href="{{url('document-type-we-translate')}}" class="animsition-link">Document  </a>
                                <!-- <ul>
                                     <li><a href="blog-listing.html" title="Blog Listing" class="animsition-link">Blog Listing</a></li>
                                     <li><a href="blog-single.html" title="Blog Single" class="animsition-link">Blog Single</a></li>
@@ -154,10 +154,10 @@
                                    
                             </li>
                             <li><a href="{{url('certifications')}}" title="Contact us" class="animsition-link">Certifications</a></li>
-                         <li>   <a href="{{url('translator-jobs')}}" title="Personal Loan" class="animsition-link">Translator Jobs</a></li>
+                         <li>   <a href="{{url('translator-jobs')}}" title="Personal Loan" class="animsition-link">Join us</a></li>
 
 
-                             <li><a href="{{url('our-customers')}}" title="Contact us" class="animsition-link">Our Customers</a></li>
+                             <li><a href="{{url('our-customers')}}" title="Contact us" class="animsition-link">Customers</a></li>
                              
 
 

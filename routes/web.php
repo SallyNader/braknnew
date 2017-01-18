@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('arabic-home',function(){
+Route::get('/arabic',function(){
 
 
     return view('arhome');
@@ -110,7 +110,7 @@ Route::get('arabic-languages', function () {
 Route::get('translation-service-document-translation', function () {
     return view('artranslation');
 });
-Route::get('home', function () {
+Route::get('/', function () {
     return view('home');
 });
 Route::get('our-customers', function () {
