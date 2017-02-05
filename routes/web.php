@@ -13,7 +13,7 @@
 
 Route::get('/arabic',function(){
 
-
+  App::setLocale('ar');
     return view('arhome');
 });
 
@@ -50,6 +50,7 @@ Route::get('arabic-translation-service-document-translation', function () {
 
 
 Route::get('arabic-translator-jobs', function () {
+    Lang::setLocale('ar');
     return view('artranslatorjobs');
 });
 

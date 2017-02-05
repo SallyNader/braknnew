@@ -26,6 +26,12 @@ class MailController extends Controller
 
 
     		]);
+        $file=$request->file('cv');
+
+        $path=public_path()."/cv/";
+      
+         $newName=$file->getClientOriginalName();
+
     	$data=['name'=>$request->get('name'),'email'=>$request->get('email'),
 
 'phone'=>$request->get('phone'),'language'=>$request->get('language'),
@@ -33,19 +39,23 @@ class MailController extends Controller
 'capacity'=>$request->get('capacity'), 'speciality'=>$request->get('speciality'),
 'experience'=>$request->get('experience')  , 'address'=>$request->get('address'),
 
-'cv'=>$request->get('cv'),'gender'=>$request->get('gender'),'jobtime'=>$request->get('jobtime')
+'cv'=>$request->file('cv'),'gender'=>$request->get('gender'),'jobtime'=>$request->get('jobtime')
 
     	];
 
+   
+if($file->move($path,$newName)){
 
-    	Mail::send('templates.onlinejob',$data,function($message){
-    		$message->from('info@Alboraq.com','Alboraq');
-    		$message->to('SALLY.NADER.AHMED@hotmail.com')->subject('New Candidate Application');
+            Mail::send('templates.onlinejob',$data,function($message) use($newname){
+            $message->from('info@Alboraq.com','Alboraq');
+            $message->to('SALLY.NADER.AHMED@hotmail.com')->subject('New Candidate Application');
+            $message->attach(public_path()."/cv/".$newName);
 
 
 
 
-    	});
+        });
+        }
     	return view('home')->with('message','your application submitted');
     }
 

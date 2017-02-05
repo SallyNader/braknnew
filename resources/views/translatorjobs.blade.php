@@ -209,8 +209,11 @@
                     <div class="request-form">
                         <h2>Be Our Translator</h2>
                         <p>fill this form to join us and be our translator </p>
-                        <form method="post" action="{{url('online-job')}}">
-                        {{ csrf_field() }}
+                        <form  action="{{url('online-job')}}"  method="post" files="true"  enctype="multipart/form-data" >
+                      
+                                    {!! method_field('POST') !!} 
+
+                                                  {{ csrf_field() }}
                             <!-- Text input-->
                             <div class="form-group">
                                 <label class="control-label sr-only" for="name">Name</label>
@@ -293,7 +296,7 @@
 
                           <div class="form-group">
                                 <label >Upload Your CV</label>
-                                <input  name="cv" type="file" >
+                                <input  type="file"  name="cv"  >
                                 <p style="color:#f51f8a">{{$errors->first('cv')}}</p>
                             </div>
                             
